@@ -38,9 +38,9 @@ public class Test {
                     do {
                         System.out.print("Ingrese el nombre completo: ");
                         nombreCompleto = scanner.nextLine();
-                        if (!nombreCompleto.matches("^[a-zA-Z]*$"))
+                        if (!nombreCompleto.matches("^[a-zA-Z ]*$"))
                             System.out.println("Debe ingresar un apellido válido");
-                    } while (!nombreCompleto.matches("^[a-zA-Z]*$"));
+                    } while (!nombreCompleto.matches("^[a-zA-Z ]*$"));
 
                     esValido = false;
                     do {
@@ -56,16 +56,16 @@ public class Test {
                     do {
                         System.out.print("Ingrese el equipo: ");
                         equipo = scanner.nextLine();
-                        if (!equipo.matches("^[a-zA-Z]*$"))
+                        if (!equipo.matches("^[a-zA-Z ]*$"))
                             System.out.println("Debe ingresar un apellido válido");
-                    } while (!equipo.matches("^[a-zA-Z]*$"));
+                    } while (!equipo.matches("^[a-zA-Z ]*$"));
 
                     do {
                         System.out.print("Ingrese la posicion: ");
                         posicion = scanner.nextLine();
-                        if (!posicion.matches("^[a-zA-Z]*$"))
+                        if (!posicion.matches("^[a-zA-Z ]*$"))
                             System.out.println("Debe ingresar un apellido válido");
-                    } while (!posicion.matches("^[a-zA-Z]*$"));
+                    } while (!posicion.matches("^[a-zA-Z ]*$"));
 
                     esValido = false;
                     do {
